@@ -41,7 +41,7 @@ const Navbar = () => {
 
       <div className="flex gap-5 items-center">
       <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500">
-        <a><MdDarkMode /></a>
+        <MdDarkMode />
         </div>
         {/* lap top div */}
         <div className="hidden md:flex gap-5">
@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
 
       {/* mobile */}
-      <div className="flex flex-col md:hidden items-center justify-center fixed mt-10 h-screen right-4 top-1/2 transform -translate-y-1/2">
+      <div className="flex flex-col md:hidden items-center justify-center fixed -z-50 h-screen right-4 top-1/2 transform -translate-y-1/2">
         <div className="flex flex-col gap-5 bg-white bg-opacity-20 backdrop-blur-md py-3 px-2 rounded-3xl">
           {socialicon.map((item) => {
             return (
