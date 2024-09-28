@@ -3,6 +3,7 @@ import { FaInstagram, FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { ImWhatsapp } from "react-icons/im";
+import { MdDarkMode } from "react-icons/md";
 const Navbar = () => {
   const socialicon = [
     {
@@ -38,20 +39,26 @@ const Navbar = () => {
         </svg>
       </div>
 
-      {/* lap top div */}
-      <div className="hidden md:flex gap-5">
-        {socialicon.map((item) => {
-          return (
-            <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500">
-              <a>{item.icon}</a>
-            </div>
-          );
-        })}
+      <div className="flex gap-5 items-center">
+      <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500">
+        <a><MdDarkMode /></a>
+        </div>
+        {/* lap top div */}
+        <div className="hidden md:flex gap-5">
+          {socialicon.map((item) => {
+            return (
+              <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500">
+                <a>{item.icon}</a>
+              </div>
+            );
+          })}
+        </div>
+
+       
       </div>
 
-
       {/* mobile */}
-      <div className="flex flex-col md:hidden items-center justify-center fixed h-screen right-4 top-1/2 transform -translate-y-1/2">
+      <div className="flex flex-col md:hidden items-center justify-center fixed mt-10 h-screen right-4 top-1/2 transform -translate-y-1/2">
         <div className="flex flex-col gap-5 bg-white bg-opacity-20 backdrop-blur-md py-3 px-2 rounded-3xl">
           {socialicon.map((item) => {
             return (
