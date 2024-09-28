@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { ImWhatsapp } from "react-icons/im";
 import { MdDarkMode } from "react-icons/md";
+import Nav from "./Nav";
 const Navbar = () => {
   const socialicon = [
     {
@@ -23,9 +24,10 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className=" flex justify-between items-center  px-[4vw] sm:px-[6vw] md:px-[8vw] mt-2">
+    <>
+    <div className=" flex justify-between items-center  px-[4vw] sm:px-[6vw] md:px-[8vw] pt-2">
       {/* logo name */}
-      <div className="w-16 md:w-24 hover:opacity-50 transition-all duration-500">
+      <div className="w-16 md:w-20 hover:opacity-60 transition-all duration-500">
         <svg
           viewBox="0 0 406 368"
           fill="none"
@@ -39,30 +41,28 @@ const Navbar = () => {
         </svg>
       </div>
 
+      {/* lap top socila media icon */}
       <div className="flex gap-5 items-center">
-      <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500">
-        <MdDarkMode />
-        </div>
-        {/* lap top div */}
         <div className="hidden md:flex gap-5">
-          {socialicon.map((item) => {
+          {socialicon.map((item,index) => {
             return (
-              <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500">
+              <div key={index} className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500 hover:translate-y-[-8px]">
                 <a>{item.icon}</a>
               </div>
             );
           })}
         </div>
-
-       
+        <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500 hover:translate-y-[-8px]">
+          <MdDarkMode />
+        </div>
       </div>
 
-      {/* mobile */}
-      <div className="flex flex-col md:hidden items-center justify-center fixed -z-50 h-screen right-4 top-1/2 transform -translate-y-1/2">
+      {/* mobile socila media icon */}
+      <div className="flex flex-col lg:hidden items-center justify-center absolute -z-50 h-screen right-4 top-1/2 transform -translate-y-1/2">
         <div className="flex flex-col gap-5 bg-white bg-opacity-20 backdrop-blur-md py-3 px-2 rounded-3xl">
-          {socialicon.map((item) => {
+          {socialicon.map((item, index) => {
             return (
-              <div className="w-6 flex text-[16px] items-center justify-center  text-white shadow p-1 cursor-pointer rounded-md hover:bg-[#43b0f1] transition-all duration-500">
+              <div key={index} className="w-6 flex text-[16px] items-center justify-center  text-white shadow p-1 cursor-pointer rounded-md hover:bg-[#43b0f1] transition-all duration-500">
                 <a>{item.icon}</a>
               </div>
             );
@@ -70,6 +70,9 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+
+    <Nav />
+    </>
   );
 };
 

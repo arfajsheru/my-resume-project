@@ -1,12 +1,15 @@
-import React from 'react'
-import Navbar from './component/Navbar'
+import Home from "./pages/home";
+import Contact from "./pages/contact";
+import Work from "./pages/work";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="overflow-x-hidden">
+      <Home />
+      {/* <Work />
+      <Contact /> */}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
