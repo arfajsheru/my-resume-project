@@ -10,7 +10,8 @@ export default {
         opansans: ["Open Sans", "sans-serif"],  // sans-serif ko string me daalo
         playfair: ["Playfair Display SC", "sans-serif"], // yahan bhi same
         roboto: ["Roboto", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"]
+        montserrat: ["Montserrat", "sans-serif"],
+        notoserif:["Noto Serif Oriya", "serif"]
       }
     },
   },

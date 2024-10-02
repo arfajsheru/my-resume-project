@@ -46,23 +46,23 @@ const Navbar = () => {
         <div className="hidden md:flex gap-5">
           {socialicon.map((item,index) => {
             return (
-              <div key={index} className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500 hover:translate-y-[-8px]">
+              <div key={index} className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl background transition-all duration-700 hover:translate-y-[-8px]">
                 <a>{item.icon}</a>
               </div>
             );
           })}
         </div>
-        <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500 hover:translate-y-[-8px]">
+        <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white  box-shadow p-2 cursor-pointer rounded-xl background transition-all duration-700 hover:translate-y-[-8px]">
           <MdDarkMode />
         </div>
       </div>
 
       {/* mobile socila media icon */}
       <div className="flex flex-col lg:hidden items-center justify-center absolute -z-50 h-screen right-4 top-1/2 transform -translate-y-1/2">
-        <div className="flex flex-col gap-5 bg-white bg-opacity-20 backdrop-blur-md py-3 px-2 rounded-3xl">
+        <div className="flex flex-col gap-5 py-3 px-2 rounded-3xl">
           {socialicon.map((item, index) => {
             return (
-              <div key={index} className="w-6 flex text-[16px] items-center justify-center  text-white shadow p-1 cursor-pointer rounded-md hover:bg-[#43b0f1] transition-all duration-500">
+              <div key={index} className="w-6 flex text-[16px] items-center justify-center text-white shadow p-1 cursor-pointer rounded-md background transition-all duration-700">
                 <a>{item.icon}</a>
               </div>
             );
@@ -70,8 +70,6 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-
-    <Nav />
     </>
   );
 };
