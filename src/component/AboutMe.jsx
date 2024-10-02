@@ -31,9 +31,9 @@ const AboutMe = ({ aboutme, setAboutme }) => {
         <RxCross2 className="transition-transform text-white duration-300 transform hover:rotate-90" />
       </div>
 
-      <div className="flex items-center ">
+      <div className="flex items-center h-full">
         {/* left side div */}
-        <div className="flex flex-col gap-6 p-10 md:w-[65%]">
+        <div className="flex flex-col justify-between py-8 mx-3 md:mx-10  h-full w-full">
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left  text-xl">
             About Me
           </h1>
@@ -56,11 +56,10 @@ const AboutMe = ({ aboutme, setAboutme }) => {
             })}
           </ul>
 
-          <div className="flex gap-20 flex-col">
-            <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left mb-3 text-xl">
+          <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left mb-3 text-xl">
               Mern Stack
             </h1>
-
+          
             <div className="flex">
               <div className="w-20 h-24 flex flex-col gap-3 justify-center items-center text-[#47a248] text-3xl ">
                 <svg
@@ -119,14 +118,13 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                     <path d="M146.928 85.99c15.21-.979 31.493-.58 45.18 6.913 10.597 5.742 16.472 17.793 16.659 29.566-.296 1.588-1.956 2.464-3.472 2.355-4.413-.006-8.827.06-13.24-.03-1.872.072-2.96-1.654-3.195-3.309-1.268-5.633-4.34-11.212-9.642-13.929-8.139-4.075-17.576-3.87-26.451-3.785-6.479.344-13.446.905-18.935 4.715-4.214 2.886-5.494 8.712-3.99 13.404 1.418 3.369 5.307 4.456 8.489 5.458 18.33 4.794 37.754 4.317 55.734 10.626 7.444 2.572 14.726 7.572 17.274 15.366 3.333 10.446 1.872 22.932-5.56 31.318-6.027 6.901-14.805 10.657-23.56 12.697-11.647 2.597-23.734 2.663-35.562 1.51-11.122-1.268-22.696-4.19-31.282-11.768-7.342-6.375-10.928-16.308-10.572-25.895.085-1.619 1.697-2.748 3.248-2.615 4.444-.036 8.888-.048 13.332.006 1.775-.127 3.091 1.407 3.182 3.08.82 5.367 2.837 11 7.517 14.182 9.032 5.827 20.365 5.428 30.707 5.591 8.568-.38 18.186-.495 25.178-6.158 3.689-3.23 4.782-8.634 3.785-13.283-1.08-3.925-5.186-5.754-8.712-6.95-18.095-5.724-37.736-3.647-55.656-10.12-7.275-2.571-14.31-7.432-17.105-14.906-3.9-10.578-2.113-23.662 6.098-31.765 8.006-8.06 19.563-11.164 30.551-12.275z"></path>
                   </g>
                 </svg>
-                <span>N</span>
+              <span>N</span>
               </div>
-            </div>
           </div>
         </div>
 
         {/*Right side div */}
-        <div className="hidden md:flex w-1/2">
+        <div className="hidden md:flex w-[45%]">
           <svg
             width="900"
             height="600"
