@@ -1,11 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaInstagram, FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
 import { ImWhatsapp } from "react-icons/im";
 import { MdDarkMode } from "react-icons/md";
-import Nav from "./Nav";
+import { GiSoundOff , GiSoundOn} from "react-icons/gi";
+import bg_music from "../asstes/bg-music.mp3"
 const Navbar = () => {
+
+  const[isSoundOn, setIsSoundOn]=useState(false)
+  const audio = new Audio(bg_music);
+
+  const handleSoundToggle = () => {
+    setIsSoundOn((prev) => !prev); // Toggle sound state
+  };
+
+  useEffect(() => {
+    // Ensure that audio does not loop
+    audio.loop = false; // Set this to true if you want it to loop
+
+    if (isSoundOn) {
+      audio.play(); // Play sound if it was turned on
+    } else {
+      audio.pause(); // Pause sound if it was turned off
+      audio.currentTime = 0; // Reset audio to start
+    }
+
+    // Clean up to pause the audio when component unmounts
+    return () => {
+      audio.pause();
+    };
+  }, [isSoundOn]); 
+
   const socialicon = [
     {
       icon: <FaLinkedin />,
@@ -52,8 +78,8 @@ const Navbar = () => {
             );
           })}
         </div>
-        <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white  box-shadow p-2 cursor-pointer rounded-xl background transition-all duration-700 hover:translate-y-[-8px] pointer-events-auto">
-          <MdDarkMode />
+        <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white  box-shadow p-2 cursor-pointer rounded-xl background transition-all duration-700 hover:translate-y-[-8px] pointer-events-auto " onClick={handleSoundToggle}>
+          {isSoundOn? <GiSoundOn /> : <GiSoundOff />}
         </div>
       </div>
 

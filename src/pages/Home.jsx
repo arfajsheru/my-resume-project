@@ -8,8 +8,8 @@ import MatterCanvas from '../component/MatterCanvas';
 
 
 const home = () => {
-  const[aboutme,setAboutme] = useState(false);
 
+  const[aboutme,setAboutme] = useState(false);
 
   
 
