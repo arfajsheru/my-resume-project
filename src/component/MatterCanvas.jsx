@@ -65,7 +65,7 @@ const MatterCanvas = () => {
         Math.max(dimensions.width / 25, dimensions.height / 25) / 2,
         {
           render: {
-            fillStyle: `#000`,
+            fillStyle: `#43b0f1`,
             strokeStyle: `#000`,
             lineWidth: 0,
           },
@@ -105,7 +105,7 @@ const MatterCanvas = () => {
             frictionAir: 0.02,
             angle: Math.round(Math.random() * 360),
             render: {
-              fillStyle: "#222222",
+              fillStyle: "#00151e",
               strokeStyle: `#000000`,
               lineWidth: 2,
             },
@@ -120,7 +120,7 @@ const MatterCanvas = () => {
           friction: 0,
           frictionAir: 0.01,
           render: {
-            fillStyle: r > 0.3 ? `#27292d` : `#444444`,
+            fillStyle: r > 0.3 ? `#00202e` : `#00204e`,
             strokeStyle: `#000000`,
             lineWidth: 2,
           },
@@ -133,7 +133,7 @@ const MatterCanvas = () => {
           friction: 0,
           frictionAir: 0,
           render: {
-            fillStyle: r > 0.3 ? `#334443` : `#222222`,
+            fillStyle: r > 0.3 ? `#003f5c` : `#063044`,
             strokeStyle: `#111111`,
             lineWidth: 4,
           },
@@ -146,7 +146,7 @@ const MatterCanvas = () => {
           friction: 0.6,
           frictionAir: 0.8,
           render: {
-            fillStyle: `#191919`,
+            fillStyle: `#1e3d58`,
             strokeStyle: `#111111`,
             lineWidth: 3,
           },

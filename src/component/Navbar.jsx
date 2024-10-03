@@ -42,8 +42,8 @@ const Navbar = () => {
       </div>
 
       {/* lap top socila media icon */}
-      <div className="flex gap-5 items-center">
-        <div className="hidden md:flex gap-5">
+      <div className="flex gap-5 items-center ">
+        <div className="hidden md:flex gap-5 pointer-events-auto">
           {socialicon.map((item,index) => {
             return (
               <div key={index} className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl background transition-all duration-700 hover:translate-y-[-8px] pointer-events-auto">
