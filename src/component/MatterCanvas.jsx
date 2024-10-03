@@ -120,7 +120,7 @@ const MatterCanvas = () => {
           friction: 0,
           frictionAir: 0.01,
           render: {
-            fillStyle: r > 0.3 ? `#00202e` : `#00204e`,
+            fillStyle: r > 0.3 ? `#00151e` : `#0c080a`,
             strokeStyle: `#000000`,
             lineWidth: 2,
           },
@@ -146,7 +146,7 @@ const MatterCanvas = () => {
           friction: 0.6,
           frictionAir: 0.8,
           render: {
-            fillStyle: `#1e3d58`,
+            fillStyle: `#00202e`,
             strokeStyle: `#111111`,
             lineWidth: 3,
           },
