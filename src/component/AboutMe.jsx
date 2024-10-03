@@ -33,19 +33,22 @@ const AboutMe = ({ aboutme, setAboutme }) => {
 
       <div className="flex items-center h-full">
         {/* left side div */}
-        <div className="flex flex-col justify-between py-8 mx-3 md:mx-10 h-full w-full">
+        <div className="flex flex-col justify-between py-8 mx-3 md:mx-10 h-[80vh] md:h-full w-full">
 
+          <div className="flex flex-col gap-3">
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left  text-xl">
             About Me
           </h1>
-
           <p className="text-[14px] md:text-xl  text-justify">
             I help business owners and busy web developers to design & develop
             creative websites that fits their vision and attracts the visitors
             to stay forever. Technologies and tools that I use to create such
             awesome websites.
           </p>
+          </div>
 
+
+          <div className="flex flex-col gap-3">
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left  text-xl">
             skills
           </h1>
@@ -54,14 +57,15 @@ const AboutMe = ({ aboutme, setAboutme }) => {
             {skill.map((item, index) => {
               return (
                 <div
-                  key={index}
-                  className="py-1 px-2 text-center border rounded-full border-gray-500 text-xs hover:bg-[#43b0f1] "
+                key={index}
+                className="py-1 px-2 text-center border rounded-full border-gray-500 text-xs hover:bg-[#43b0f1] "
                 >
                   {item.name}
                 </div>
               );
             })}
           </ul>
+          </div>
 
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left mb-3 text-xl">
               Mern Stack
