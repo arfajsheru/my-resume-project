@@ -33,7 +33,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
 
       <div className="flex items-center h-full">
         {/* left side div */}
-        <div className="flex flex-col justify-between py-8 mx-3 md:mx-10 h-[80vh] md:h-full w-full">
+        <div className="flex flex-col justify-between mx-3 md:mx-10 md:py-10 h-[80vh] md:h-full w-full">
 
           <div className="flex flex-col gap-3">
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left  text-xl">
@@ -67,11 +67,12 @@ const AboutMe = ({ aboutme, setAboutme }) => {
           </ul>
           </div>
 
+          
+          <div className="flex flex-col gap-12 ">
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left mb-3 text-xl">
               Mern Stack
           </h1>
-          
-          <div className="flex">
+          <div className="flex justify-center md:justify-start">
               <div className="w-20 h-24 flex flex-col gap-3 justify-center items-center text-[#47a248] text-3xl ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -131,6 +132,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 </svg>
               <span>N</span>
               </div>
+          </div>
           </div>
         </div>
 
