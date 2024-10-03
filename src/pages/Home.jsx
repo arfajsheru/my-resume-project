@@ -11,8 +11,6 @@ const home = () => {
 
   const[aboutme,setAboutme] = useState(false);
 
-  
-
   return (
     <div className='h-[100vh] relative z-40 bg-[#191b1c]' >
         {!aboutme && <Navbar/>}
@@ -22,13 +20,10 @@ const home = () => {
         
         
         </div>
-          <div className='absolute inset-0 -z-30'>
+          {/* <div className='absolute inset-0 -z-30'>
               <MatterCanvas />
-          </div>
+          </div> */}
 
-        {/* <div className='absolute inset-0' id='wrapper-canvas'>
-             
-        </div> */}
 
     </div>
   )

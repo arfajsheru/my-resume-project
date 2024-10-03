@@ -44,8 +44,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
           Hi, I'm Arfaj Sheru a passionate Full Stack Developer with expertise in MERN stack (MongoDB, Express.js, React.js, and Node.js). I love building scalable and dynamic web applications from scratch, leveraging my skills to create seamless user experiences and efficient backend systems
           </p>
           </div>
-
-
+          
           <div className="flex flex-col gap-3">
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left  text-xl">
             skills
