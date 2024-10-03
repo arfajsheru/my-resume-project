@@ -23,8 +23,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
   ];
 
   return (
-    <div className={`fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 ${aboutme ? "popup-show" : "opacity-0 pointer-events-none"} transition-opacity duration-300`}>
-      <div className="relative w-[90vw] md:w-[70vw] h-[80vh] md:h-[90vh] rounded-lg bg-[#121518] text-white">
+    <div className={`fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 ${aboutme ? "popup-show" : "opacity-0 pointer-events-none"} transition-opacity duration-300 pointer-events-auto`}>
+      <div className="relative  w-[90vw] md:w-[75vw] h-[80vh] md:h-[90vh] rounded-lg bg-[#121518] text-white">
       <div
         className="absolute right-2 top-2 flex items-center justify-center w-8 h-8 text-xl bg-gray-700 rounded-full cursor-pointer hover:rotate-90"
         onClick={() => setAboutme(!aboutme)}
