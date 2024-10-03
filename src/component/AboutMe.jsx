@@ -41,10 +41,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
             About Me
           </h1>
           <p className="text-[14px] md:text-xl  text-justify">
-            I help business owners and busy web developers to design & develop
-            creative websites that fits their vision and attracts the visitors
-            to stay forever. Technologies and tools that I use to create such
-            awesome websites.
+          Hi, I'm Arfaj Sheru a passionate Full Stack Developer with expertise in MERN stack (MongoDB, Express.js, React.js, and Node.js). I love building scalable and dynamic web applications from scratch, leveraging my skills to create seamless user experiences and efficient backend systems
           </p>
           </div>
 
@@ -73,8 +70,9 @@ const AboutMe = ({ aboutme, setAboutme }) => {
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left mb-3 text-xl">
               Mern Stack
           </h1>
-          <div className="flex justify-center md:justify-start">
+          <div className="flex justify-center md:justify-start relative">
               <div className="w-20 h-24 flex flex-col gap-3 justify-center items-center text-[#47a248] text-3xl ">
+                <span className="absolute -top-10 text-[12px] md:text-[14px]  font-notoserif ">Mongo Db</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="50"
@@ -92,6 +90,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 <span>M</span>
               </div>
               <div className="w-20 h-24 flex flex-col gap-3 justify-center items-center text-[#fff] text-3xl">
+                <span className="absolute -top-10 text-[12px] md:text-[14px]  font-notoserif ">Express js</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 32 32"
@@ -105,6 +104,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 <span>E</span>
               </div>
               <div className="w-20 h-24 flex flex-col gap-3 justify-center items-center text-[#61dafb] text-3xl">
+                <span className="absolute -top-10 text-[12px] md:text-[14px]  font-notoserif ">React js</span>
                 <svg
                   width="50"
                   height="50"
@@ -119,6 +119,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 <span>R</span>
               </div>
               <div className="w-20 h-24 flex flex-col gap-3 justify-center items-center text-[#8cc84b] text-3xl ">
+                <span className="absolute -top-10 text-[12px] md:text-[14px]  font-notoserif ">Node js</span>
                 <svg
                   width="50"
                   height="50"

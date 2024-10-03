@@ -22,7 +22,7 @@
 }
 
 .button-background{
-  background:#43b0f1;
+  background: linear-gradient(110deg,#1595B6,#43b0f1,#003f5c);
 }
 
 /* -----------Navbar css--------------- */
