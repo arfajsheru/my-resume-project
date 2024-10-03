@@ -33,16 +33,23 @@ const AboutMe = ({ aboutme, setAboutme }) => {
 
       <div className="flex items-center h-full">
         {/* left side div */}
-        <div className="flex flex-col justify-between py-8 mx-3 md:mx-10  h-full w-full">
+        <div className="flex flex-col justify-between py-8 mx-3 md:mx-10 h-full w-full">
+
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left  text-xl">
             About Me
           </h1>
+
           <p className="text-[14px] md:text-xl  text-justify">
             I help business owners and busy web developers to design & develop
             creative websites that fits their vision and attracts the visitors
             to stay forever. Technologies and tools that I use to create such
             awesome websites.
           </p>
+
+          <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left  text-xl">
+            skills
+          </h1>
+
           <ul className="flex flex-wrap gap-2 gap-y-2 md:gap-y-3">
             {skill.map((item, index) => {
               return (
@@ -58,9 +65,9 @@ const AboutMe = ({ aboutme, setAboutme }) => {
 
           <h1 className="text-[#43b0f1] font-[roboto] uppercase text-center md:text-left mb-3 text-xl">
               Mern Stack
-            </h1>
+          </h1>
           
-            <div className="flex">
+          <div className="flex">
               <div className="w-20 h-24 flex flex-col gap-3 justify-center items-center text-[#47a248] text-3xl ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -772,6 +779,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
             </defs>
           </svg>
         </div>
+
       </div>
     </div>
   );
