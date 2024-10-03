@@ -29,3 +29,41 @@
 .box-shadow{
   box-shadow: -9px -6px 14px 7px #272e35b5, 7px 9px 10px 1px #0b0d0fde;
 }
+
+
+/* Keyframes for fade-in, scaling, and sliding */
+/* Keyframes for fade-in, scaling, and sliding */
+@keyframes fadeInSlide {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateX(100%); /* Start from the right */
+  }
+  50% {
+    opacity: 0.5; /* Halfway opacity */
+    transform: scale(1.1) translateX(10%); /* Slightly larger and almost at final position */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateX(0); /* Final scale and position */
+  }
+}
+
+/* Add popup-show class */
+.popup-show {
+  animation: fadeInSlide 0.4s forwards; /* Apply the animation */
+}
+
+/* Backdrop */
+.fixed.inset-0 {
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional: Hide pointer events when popup is not visible */
+.pointer-events-none {
+  pointer-events: none; /* Prevent interaction when hidden */
+}
+
+

@@ -1,6 +1,6 @@
 import React from "react";
 import { RxCross2 } from "react-icons/rx";
-import codingimg from "../asstes/codingimg.jpg";
+
 
 const AboutMe = ({ aboutme, setAboutme }) => {
   const skill = [
@@ -23,7 +23,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
   ];
 
   return (
-    <div className="fixed z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90vw] md:w-[70vw] h-[80vh] md:[90vh] rounded-lg bg-[#121518] text-white ">
+    <div className={`fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 ${aboutme ? "popup-show" : "opacity-0 pointer-events-none"} transition-opacity duration-300`}>
+      <div className="relative w-[90vw] md:w-[70vw] h-[80vh] md:h-[90vh] rounded-lg bg-[#121518] text-white">
       <div
         className="absolute right-2 top-2 flex items-center justify-center w-8 h-8 text-xl bg-gray-700 rounded-full cursor-pointer hover:rotate-90"
         onClick={() => setAboutme(!aboutme)}
@@ -31,7 +32,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
         <RxCross2 className="transition-transform text-white duration-300 transform hover:rotate-90" />
       </div>
 
-      <div className="flex items-center h-full">
+      <div className="flex items-center h-full ">
         {/* left side div */}
         <div className="flex flex-col justify-between mx-3 md:mx-10 py-4 md:py-10 h-[80vh] md:h-full w-full">
 
@@ -786,6 +787,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
           </svg>
         </div>
 
+      </div>
       </div>
     </div>
   );
