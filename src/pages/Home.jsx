@@ -20,9 +20,9 @@ const home = () => {
         
         
         </div>
-          {/* <div className='absolute inset-0 -z-30'>
+          <div className='absolute inset-0 -z-30'>
               <MatterCanvas />
-          </div> */}
+          </div>
 
 
     </div>
