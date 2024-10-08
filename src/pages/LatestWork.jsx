@@ -5,7 +5,7 @@ const LatestWork = () => {
     <div className='h-[100vh] bg-[#191b1c] text-white px-5 sm:pb-16'>
         <h1 className='text-3xl text-[40px] mx-auto w-max px-4 text-center font-bold font-montserrat border-b border-b-[#43b0f1]'>Latest works</h1>
         <div
-        className="flex flex-col sm:flex-row gap-4 mt-8 sm:gap-[80px] items-center sm:mt-20 relative"
+        className="flex flex-col sm:flex-row gap-4 sm:gap-[80px] items-center sm:mt-20 relative"
       >
         <div
           className="h-[1px] left-1/4 right-1/2 bg-[#1788ae] absolute top-2/4 hidden sm:block"

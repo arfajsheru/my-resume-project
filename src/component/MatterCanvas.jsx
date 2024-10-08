@@ -87,7 +87,7 @@ const MatterCanvas = () => {
       World.add(world, attractiveBody);
     
       // add some bodies that to be attracted
-      for (var i = 0; i < 60; i += 1) {
+      for (var i = 0; i < 50; i += 1) {
         let x = Common.random(0, render.options.width);
         let y = Common.random(0, render.options.height);
         let s =
@@ -230,7 +230,7 @@ const MatterCanvas = () => {
   }, []);
 
   return (
-    <div id="wrapper-canvas" className='h-[100vh]' style={{ position: 'absolute', inset: '0' }}></div>
+    <div id="wrapper-canvas" style={{ position: 'absolute', inset: '0' }}></div>
   );
 };
 

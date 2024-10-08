@@ -5,7 +5,7 @@ const NavbarHero = ({ aboutme, setAboutme }) => {
   return (
     <>
       {/* Banner logo */}
-      <div className="flex items-center justify-center w-full h-full pointer-events-none">
+      <div className="flex items-center justify-center w-full h-full pointer-events-none overflow-y-hidden">
         <div className="absolute top-[40%] md:top-[32%] left-[15%] text-white flex flex-col gap-4 md:gap-9 items-start">
           <h1 className="text-4xl md:text-7xl font-roboto font-bold tracking-wider pointer-events-none">
             <span className="text-[#43b0f1]">A</span>rfaj{" "}
