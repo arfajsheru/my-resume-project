@@ -1,30 +1,31 @@
 import React, { useState } from "react";
 import { GiThornedArrow } from "react-icons/gi";
 import AboutMe from "./AboutMe";
-const NavbarHero = ({aboutme,setAboutme}) => {
-
+const NavbarHero = ({ aboutme, setAboutme }) => {
   return (
     <>
       {/* Banner logo */}
       <div className="flex items-center justify-center w-full h-full pointer-events-none">
-      <div className="absolute top-[40%] md:top-[32%] left-[15%] text-white flex flex-col gap-4 md:gap-9 items-start">
-          <h1 className="text-4xl md:text-7xl font-roboto font-bold tracking-wider pointer-events-none"><span className="text-[#43b0f1]">A</span>rfaj <span className="text-[#43b0f1]">S</span>heru</h1>
-          <p className="font-[notoserif] text-[14px] md:text-xl italic tracking-wider pointer-events-none">MERN Stack Developer</p>
-          <button onClick={() => setAboutme(!aboutme)}
-              className="flex items-center gap-3 button-background py-2 px-5 rounded font-medium font-roboto relative hover:scale-110 ease-in-out duration-100 group pointer-events-auto"
-            >
-              About Me
-              <GiThornedArrow className="absolute -right-4 -rotate-[45deg] text-2xl font-thin " />
+        <div className="absolute top-[40%] md:top-[32%] left-[15%] text-white flex flex-col gap-4 md:gap-9 items-start">
+          <h1 className="text-4xl md:text-7xl font-roboto font-bold tracking-wider pointer-events-none">
+            <span className="text-[#43b0f1]">A</span>rfaj{" "}
+            <span className="text-[#43b0f1]">S</span>heru
+          </h1>
+          <p className="font-[notoserif] text-[14px] md:text-xl italic tracking-wider pointer-events-none">
+            MERN Stack Developer
+          </p>
+          <button
+            onClick={() => setAboutme(!aboutme)}
+            className="flex items-center gap-3 button-background py-2 px-5 rounded font-medium font-roboto relative hover:scale-110 ease-in-out duration-100 group pointer-events-auto"
+          >
+            About Me
+            <GiThornedArrow className="absolute -right-4 -rotate-[45deg] text-2xl font-thin " />
           </button>
-      </div>
-      {aboutme &&   <AboutMe aboutme={aboutme} setAboutme={setAboutme} />}
+        </div>
 
-
-
-    
+        
         <svg
           className="w-[300px] sm:w-[350px] md:w-[400px] lg:w-[650px] absolute -z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-         
           viewBox="0 0 406 368"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -54,9 +55,10 @@ const NavbarHero = ({aboutme,setAboutme}) => {
             </linearGradient>
           </defs>
         </svg>
-        </div>
-      </>
-
+        
+        {aboutme && <AboutMe aboutme={aboutme} setAboutme={setAboutme} />}
+      </div>
+    </>
   );
 };
 
