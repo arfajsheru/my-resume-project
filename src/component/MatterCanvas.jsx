@@ -230,7 +230,7 @@ const MatterCanvas = () => {
   }, []);
 
   return (
-    <div id="wrapper-canvas" style={{ position: 'absolute', inset: '0' }}></div>
+    <div id="wrapper-canvas" className='h-[100vh]' style={{ position: 'absolute', inset: '0' }}></div>
   );
 };
 

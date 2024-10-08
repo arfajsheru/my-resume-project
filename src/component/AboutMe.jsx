@@ -79,10 +79,10 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                   viewBox="0 0 24 24"
                   fill="#47A248"
                   stroke="none"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class=""
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  trokelnejoin="round"
+                  className=""
                 >
                   <path d="M17.18 9.518c-1.263-5.56-4.242-7.387-4.562-8.086C12.266.939 11.885 0 11.885 0c-.002.019-.004.031-.005.049v.013h-.001c-.002.015-.003.025-.004.039v.015h-.002c0 .01-.002.018-.002.026v.026h-.003c-.001.008-.001.018-.003.025v.021h-.002c0 .007 0 .015-.002.021v.02h-.002c0 .01-.001.022-.002.032v.002c-.003.017-.006.034-.009.05v.008h-.002c-.001.004-.003.008-.003.012v.017h-.003v.022h-.005v.018h-.005v.021h-.004v.019h-.004v.017h-.006v.014h-.004v.018h-.004v.014h-.005v.013H11.8v.015h-.004c-.001.001-.001.003-.001.004v.01h-.003c-.001.002-.001.004-.001.006v.006h-.002c-.001.003-.002.008-.002.01-.003.007-.007.014-.01.021v.002c-.002.002-.004.005-.005.007v.008h-.004v.008h-.005v.008h-.003v.01h-.006v.014h-.004v.004h-.004v.008h-.004v.011h-.004v.008h-.006v.011h-.004v.008h-.005v.008h-.003v.01h-.005v.008h-.004v.006h-.004v.008h-.006V.76h-.004v.006h-.005v.008h-.004v.011h-.005v.004h-.003v.008h-.006v.004h-.004v.01h-.004v.004h-.004v.008h-.005v.006h-.003l-.002.004v.004h-.002c-.001.002-.002.002-.002.004v.001h-.001c-.001.003-.002.005-.004.007v.003h-.001c-.005.006-.008.012-.012.018v.001c-.002.002-.007.006-.009.01v.002h-.001c-.001.001-.003.002-.003.003v.003h-.002l-.003.003v.001h-.001c0 .001-.002.002-.003.004v.004h-.003l-.002.002v.002h-.002c0 .002-.002.002-.002.003v.003h-.004c0 .001-.001.002-.002.003V.92h-.003v.004h-.004V.93h-.004v.008h-.005V.93h-.005v.004h-.004V.94h-.005v.008h-.005v.004h-.004v.006h-.004v.004h-.004V.97h-.006v.004h-.004V.98h-.005v.004h-.004v.005h-.005v.01h-.002v.004h-.006v.005h-.004v.002h-.004v.004h-.005v.01h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.005v.004h-.004v.004h-.004v.01h-.004v.005h-.006v.004h-.004v.004h-.005v.006h-.004v.004h-.005v.007h-.004v.004h-.006V1.1h-.002v.004h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.003c-.001.001-.001.002-.001.002v.002h-.002l-.004.004s-.002.002-.004.003v.006h-.004v.005h-.004v.004h-.004v.004h-.003l-.003.003v.003h-.002l-.002.002v.003h-.002c-.005.006-.007.01-.014.016-.002.002-.008.007-.012.01-.012.008-.027.021-.039.032-.008.005-.016.012-.022.017v.001h-.001c-.016.013-.031.025-.049.039v.001c-.024.02-.047.039-.074.062V1.34h-.002c-.057.047-.117.1-.186.159V1.5h-.001c-.169.148-.37.338-.595.568l-.015.015-.004.004C9 3.494 6.857 6.426 6.631 11.164c-.02.392-.016.773.006 1.144v.009c.109 1.867.695 3.461 1.428 4.756v.001c.292.516.607.985.926 1.405v.001c1.102 1.455 2.227 2.317 2.514 2.526.441 1.023.4 2.779.4 2.779l.644.215s-.131-1.701.053-2.522c.057-.257.192-.476.349-.662.106-.075.42-.301.797-.645.018-.019.028-.036.044-.054 1.521-1.418 4.362-4.91 3.388-10.599z"></path>
                 </svg>
@@ -155,7 +155,7 @@ const AboutMe = ({ aboutme, setAboutme }) => {
               rx="22.048"
               fill="#fff"
               stroke="#E1E4E5"
-              stroke-width="2.321"
+              strokeWidth="2.321"
             />
             <rect
               x="579.715"
@@ -174,23 +174,23 @@ const AboutMe = ({ aboutme, setAboutme }) => {
               fill="url(#b)"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M542.323 218.167c-15.363 0-27.818-12.631-27.818-28.21s12.455-28.21 27.818-28.21c15.362 0 27.817 12.631 27.817 28.21s-12.455 28.21-27.817 28.21z"
               fill="#1A729F"
             />
             <path
               d="m552.118 185.255-11.752 12.538-7.055-7.521"
               stroke="#fff"
-              stroke-width="4.381"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="4.381"
+              strokeLinecap="round"
+              trokelnejoin="round"
             />
             <path
               d="M459.482 324.443v131.29c0 9.591-7.775 17.348-17.364 17.348H132.524c-9.589 0-17.364-7.757-17.364-17.348v-131.29c0-9.594 7.777-17.374 17.364-17.374h309.594c9.587 0 17.364 7.78 17.364 17.374z"
               fill="#fff"
               stroke="#E1E4E5"
-              stroke-width="2.321"
+              strokeWidth="2.321"
             />
             <path
               d="M234.053 460.812h-91.201c-6.905 0-12.521-5.62-12.521-12.528v-91.256c0-6.908 5.616-12.528 12.521-12.528h91.201c6.904 0 12.521 5.62 12.521 12.528v91.256c0 6.934-5.617 12.528-12.521 12.528z"
@@ -200,13 +200,13 @@ const AboutMe = ({ aboutme, setAboutme }) => {
               d="M459.482 324.443a4.357 4.357 0 0 1-4.357 4.356H119.517a4.357 4.357 0 0 1-4.357-4.356c0-9.594 7.777-17.374 17.364-17.374h309.594c9.587 0 17.364 7.78 17.364 17.374z"
               fill="#fff"
               stroke="#E1E4E5"
-              stroke-width="2.321"
+              strokeWidth="2.321"
             />
             <path
               d="M137.529 318.361a3.52 3.52 0 0 1-3.511 3.513 3.52 3.52 0 0 1-3.511-3.513 3.52 3.52 0 0 1 3.507-3.514c1.945.024 3.515 1.588 3.515 3.514zm13.568-.001a3.52 3.52 0 0 1-3.511 3.514 3.52 3.52 0 0 1-3.51-3.514 3.519 3.519 0 0 1 3.506-3.513c1.945.023 3.515 1.588 3.515 3.513zm13.568 0a3.52 3.52 0 0 1-3.511 3.514 3.52 3.52 0 0 1-3.511-3.514 3.52 3.52 0 0 1 3.507-3.513c1.968.023 3.515 1.585 3.515 3.513z"
               fill="#E1E4E5"
               stroke="#E1E4E5"
-              stroke-width="1.583"
+              strokeWidth="1.583"
             />
             <rect
               x="256.152"
@@ -267,15 +267,15 @@ const AboutMe = ({ aboutme, setAboutme }) => {
             <path
               d="m168.682 415.543-13.175-13.176 13.175-13.175m39.527 0 13.176 13.175-13.176 13.176m-14.65-32.938-10.982 39.527"
               stroke="#fff"
-              stroke-width="9.389"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="9.389"
+              strokeLinecap="round"
+              trokelnejoin="round"
             />
             <path
               d="M784.569 277.058v131.289c0 9.592-7.775 17.349-17.363 17.349H457.611c-9.589 0-17.363-7.757-17.363-17.349V277.058c0-9.594 7.776-17.375 17.363-17.375h309.595c9.586 0 17.363 7.781 17.363 17.375z"
               fill="#fff"
               stroke="#E1E4E5"
-              stroke-width="2.321"
+              strokeWidth="2.321"
             />
             <path
               d="M559.14 413.427h-91.201c-6.905 0-12.521-5.62-12.521-12.529v-91.255c0-6.909 5.616-12.529 12.521-12.529h91.201c6.904 0 12.521 5.62 12.521 12.529v91.255c0 6.935-5.617 12.529-12.521 12.529z"
@@ -285,13 +285,13 @@ const AboutMe = ({ aboutme, setAboutme }) => {
               d="M784.569 277.058a4.357 4.357 0 0 1-4.356 4.356H444.604a4.356 4.356 0 0 1-4.356-4.356c0-9.594 7.776-17.375 17.363-17.375h309.595c9.586 0 17.363 7.781 17.363 17.375z"
               fill="#fff"
               stroke="#E1E4E5"
-              stroke-width="2.321"
+              strokeWidth="2.321"
             />
             <path
               d="M462.616 270.975a3.52 3.52 0 0 1-3.511 3.513 3.52 3.52 0 0 1-3.511-3.513 3.52 3.52 0 0 1 3.506-3.514c1.946.024 3.516 1.588 3.516 3.514zm13.568-.001a3.52 3.52 0 0 1-3.511 3.514 3.52 3.52 0 0 1-3.511-3.514 3.52 3.52 0 0 1 3.507-3.513c1.945.023 3.515 1.588 3.515 3.513zm13.568 0a3.52 3.52 0 0 1-3.511 3.514 3.52 3.52 0 0 1-3.51-3.514 3.52 3.52 0 0 1 3.506-3.513c1.968.023 3.515 1.585 3.515 3.513z"
               fill="#E1E4E5"
               stroke="#E1E4E5"
-              stroke-width="1.583"
+              strokeWidth="1.583"
             />
             <rect
               x="581.239"
@@ -352,15 +352,15 @@ const AboutMe = ({ aboutme, setAboutme }) => {
             <path
               d="m493.769 368.157-13.176-13.175 13.176-13.176m39.527 0 13.176 13.176-13.176 13.175m-14.651-32.937-10.982 39.526"
               stroke="#fff"
-              stroke-width="9.389"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="9.389"
+              strokeLinecap="round"
+              trokelnejoin="round"
             />
             <path
               d="M482.623 132.697v131.289c0 9.592-7.774 17.349-17.363 17.349H155.665c-9.588 0-17.363-7.757-17.363-17.349V132.697c0-9.594 7.777-17.375 17.363-17.375H465.26c9.587 0 17.363 7.781 17.363 17.375z"
               fill="#fff"
               stroke="#E1E4E5"
-              stroke-width="2.321"
+              strokeWidth="2.321"
             />
             <path
               d="M257.195 269.065h-91.201c-6.905 0-12.521-5.619-12.521-12.528v-91.256c0-6.908 5.616-12.528 12.521-12.528h91.201c6.904 0 12.521 5.62 12.521 12.528v91.256c0 6.935-5.617 12.528-12.521 12.528z"
@@ -370,13 +370,13 @@ const AboutMe = ({ aboutme, setAboutme }) => {
               d="M482.623 132.697a4.356 4.356 0 0 1-4.356 4.356H142.658a4.357 4.357 0 0 1-4.356-4.356c0-9.594 7.777-17.375 17.363-17.375H465.26c9.587 0 17.363 7.781 17.363 17.375z"
               fill="#fff"
               stroke="#E1E4E5"
-              stroke-width="2.321"
+              strokeWidth="2.321"
             />
             <path
               d="M160.671 126.613a3.52 3.52 0 0 1-3.511 3.514 3.52 3.52 0 0 1-3.511-3.514 3.52 3.52 0 0 1 3.507-3.513c1.945.024 3.515 1.588 3.515 3.513zm13.569.001a3.52 3.52 0 0 1-3.511 3.513 3.52 3.52 0 0 1-3.511-3.513 3.52 3.52 0 0 1 3.506-3.514c1.946.024 3.516 1.588 3.516 3.514zm13.567 0a3.52 3.52 0 0 1-3.511 3.513 3.52 3.52 0 0 1-3.51-3.513 3.52 3.52 0 0 1 3.506-3.514c1.968.024 3.515 1.585 3.515 3.514z"
               fill="#E1E4E5"
               stroke="#E1E4E5"
-              stroke-width="1.583"
+              strokeWidth="1.583"
             />
             <rect
               x="279.294"
@@ -437,9 +437,9 @@ const AboutMe = ({ aboutme, setAboutme }) => {
             <path
               d="m191.824 223.796-13.175-13.175 13.175-13.176m39.527 0 13.176 13.176-13.176 13.175m-14.65-32.938-10.982 39.527"
               stroke="#fff"
-              stroke-width="9.389"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="9.389"
+              strokeLinecap="round"
+              trokelnejoin="round"
             />
             <path
               d="m418.888 313.175 13.538-4.118 58.854-1.732 13.273 3.623-1.732 32.343-30.028 19.159-29.126-.583-18.31-16.684-4.065-16.543-2.404-15.465z"
@@ -487,8 +487,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
               fill="#31446C"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M568.947 99.883h-3.516c-.85 0-1.534-.692-1.534-1.535v-3.515c0-.85.691-1.535 1.534-1.535h3.516a1.54 1.54 0 0 1 1.534 1.535v3.515a1.53 1.53 0 0 1-1.534 1.535zm-12.189 0h-3.516a1.54 1.54 0 0 1-1.534-1.535v-3.515c0-.85.692-1.535 1.534-1.535h3.516a1.54 1.54 0 0 1 1.534 1.535v3.515a1.54 1.54 0 0 1-1.534 1.535zm-12.197 0h-3.516a1.54 1.54 0 0 1-1.534-1.535v-3.515c0-.85.691-1.535 1.534-1.535h3.516a1.54 1.54 0 0 1 1.534 1.535v3.515a1.53 1.53 0 0 1-1.534 1.535zm-12.19 0h-3.516a1.54 1.54 0 0 1-1.534-1.535v-3.515c0-.85.692-1.535 1.534-1.535h3.516c.85 0 1.542.692 1.542 1.535v3.515a1.552 1.552 0 0 1-1.542 1.535zm-12.189 0h-3.516c-.85 0-1.541-.692-1.541-1.535v-3.515c0-.85.691-1.535 1.541-1.535h3.516a1.54 1.54 0 0 1 1.535 1.535v3.515a1.54 1.54 0 0 1-1.535 1.535zm36.129-13.291h-3.515a1.54 1.54 0 0 1-1.535-1.535v-3.523A1.54 1.54 0 0 1 552.796 80h3.515c.85 0 1.535.692 1.535 1.534v3.516a1.533 1.533 0 0 1-1.535 1.542zm-12.189 0h-3.516a1.54 1.54 0 0 1-1.534-1.535v-3.523A1.54 1.54 0 0 1 540.606 80h3.516a1.54 1.54 0 0 1 1.534 1.534v3.516a1.532 1.532 0 0 1-1.534 1.542zm-12.189 0h-3.516c-.85 0-1.542-.692-1.542-1.535v-3.523c0-.842.692-1.534 1.542-1.534h3.516a1.54 1.54 0 0 1 1.534 1.534v3.516c0 .85-.691 1.542-1.534 1.542zm12.628 27.57h-3.516a1.54 1.54 0 0 1-1.534-1.535v-3.515c0-.85.691-1.535 1.534-1.535h3.516a1.54 1.54 0 0 1 1.534 1.535v3.515a1.531 1.531 0 0 1-1.534 1.535zm-12.19 0h-3.516a1.54 1.54 0 0 1-1.534-1.535v-3.515c0-.85.692-1.535 1.534-1.535h3.516c.85 0 1.542.692 1.542 1.535v3.515a1.552 1.552 0 0 1-1.542 1.535z"
               fill="#E1E4E5"
             />
@@ -527,8 +527,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="303.871"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="a"
@@ -538,8 +538,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="154.507"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="c"
@@ -549,8 +549,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="311.8"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="d"
@@ -560,8 +560,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="390.708"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="e"
@@ -571,8 +571,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="351.257"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="f"
@@ -582,8 +582,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="351.257"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="g"
@@ -593,8 +593,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="351.257"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="h"
@@ -604,8 +604,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="311.8"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="i"
@@ -615,8 +615,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="390.708"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="j"
@@ -626,8 +626,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="170.586"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="k"
@@ -637,8 +637,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="264.414"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="l"
@@ -648,8 +648,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="343.323"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="b"
@@ -659,8 +659,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="183.621"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="n"
@@ -670,8 +670,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="303.871"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="o"
@@ -681,8 +681,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="303.871"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="p"
@@ -692,8 +692,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="264.414"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="q"
@@ -703,8 +703,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="343.323"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="r"
@@ -714,8 +714,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="120.053"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="s"
@@ -725,8 +725,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="198.961"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="t"
@@ -736,8 +736,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="159.51"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="u"
@@ -747,8 +747,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="159.51"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="v"
@@ -758,8 +758,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="159.51"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="w"
@@ -769,8 +769,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="120.053"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
               <linearGradient
                 id="x"
@@ -780,8 +780,8 @@ const AboutMe = ({ aboutme, setAboutme }) => {
                 y2="198.961"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#fff" />
-                <stop offset="1" stop-color="#EEE" />
+                <stop stopColor="#fff" />
+                <stop offset="1" stopColor="#EEE" />
               </linearGradient>
             </defs>
           </svg>

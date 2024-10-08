@@ -49,7 +49,7 @@
   }
 }
 
-/* Add popup-show class */
+/* Add popup-show className */
 .popup-show {
   animation: fadeInSlide 0.4s forwards; /* Apply the animation */
 }
@@ -128,7 +128,7 @@ html,
 
 /*
 1. Remove the margin in all browsers.
-2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+2. Inherit line-height from `html` so users can set them as a className directly on the `html` element.
 */
 
 body {

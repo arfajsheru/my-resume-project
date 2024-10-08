@@ -15,7 +15,7 @@ const Nav = () => {
 
 
   return (
-    <nav className='flex flex-col items-center justify-around lg:justify-center gap-y-4 fixed h-max bottom-0  mt-auto lg:right-[2%]  top-0 w-full lg:w-12 lg:max-w-md lg:h-screen pointer-events-none'>
+    <nav className='flex flex-col items-center justify-around lg:justify-center gap-y-4 fixed h-max bottom-0 mt-auto lg:right-[2%]  top-0 w-full lg:w-12 lg:max-w-md lg:h-screen pointer-events-none'>
       {/* inner div */}
       <div className=' flex w-full lg:flex-col items-center justify-around lg:justify-center gap-y-5 px-4 md:px-40 lg:px-0 h-[70px]  lg:h-max py-8 bg-[#182028] lg:rounded-full'>
         {navData.map((item,index) => {

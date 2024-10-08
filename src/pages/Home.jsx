@@ -17,12 +17,10 @@ const home = () => {
         <div className='flex items-center justify-center'>
         <NavbarHero aboutme={aboutme} setAboutme={setAboutme}/>
         {!aboutme && <Nav/>}
-        
-        
         </div>
-          <div className='absolute inset-0 -z-30'>
+          {/* <div className='absolute inset-0 -z-30'>
               <MatterCanvas />
-          </div>
+          </div> */}
 
 
     </div>
